@@ -1,0 +1,35 @@
+.outermost{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameField{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.name{
+    font-size: large;
+    height: 30px;
+}
+
+.labelName{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px;
+    width: 150px;
+}
+
+.imgDiv{
+    width: 150px;
+    margin: 20px auto;
+}
+
+.imgDiv > img{
+    max-width: 100%;
+
+}
